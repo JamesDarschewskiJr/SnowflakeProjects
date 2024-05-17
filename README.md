@@ -1,1 +1,5 @@
 # SnowflakeProjects
+
+This repository is dedicated to some of the labs that I have done to utilize Snowflake technologies. The purpose of this is to demonstrate a continued ability to learn and understand software as a service technologies that are designed specifically for big data.
+
+The folder entitled PCE-Marketplace is a lab that I did to take Cybersyn Financial & Economic Essentials data from the Snowflake marketplace and create a data application on Snowflake using Streamlit to predict Personal Consumption Expeditures via a Linear Regression model. This project utilizes the Snowflake, Pandas, Sci-Kit Learn, and Streamlit Python libraries. The Snowflake library was for creating a connection to my Snowflake account where the Cybersyn data was stored and for using Snowpark. The Pandas and Sci-Kit libraries were for turning the Snowpark data frame into a Pandas data frame and then training the data using a linear regression model. Finally, the Streamlit library was used for turning the trained model and data via Snowflake to create an interactive data application for predicting Personal Consumption Expeditures in the upcoming years.
